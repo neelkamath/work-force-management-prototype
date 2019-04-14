@@ -1,0 +1,20 @@
+name: work_force_management
+description: A prototype mobile app to manage laborers tasks.
+author: Neel Kamath <neelkamath@icloud.com>
+homepage: https://github.com/neelkamath/work-force-management-prototype
+
+environment:
+  sdk: '>=2.0.0-dev.58.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  link_checker: ^2.0.0
+
+flutter:
+  uses-material-design: true

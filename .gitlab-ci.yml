@@ -1,0 +1,9 @@
+image: cirrusci/flutter:0.5.6
+
+test:
+  script:
+  - flutter packages get
+  - flutter test
+
+format:
+  script: bash bin/format.sh
